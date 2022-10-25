@@ -4,5 +4,5 @@ def home(request):
     return render(request, 'calculadora/pages/home.html')
 
 
-def quemSomos(request):
-    return render(request, 'calculadora/pages/quemSomos.html')
+def desenvolvedores(request):
+    return render(request, 'calculadora/pages/desenvolvedores.html')

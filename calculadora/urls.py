@@ -1,7 +1,7 @@
 from django.urls import path
-from calculadora.views import home, quemSomos
+from calculadora.views import home, desenvolvedores
 
 urlpatterns = [
-    path('', home),
-    path(r'^quemSomos/', quemSomos, name='quemSomos'),
+    path('', home, name=''),
+    path('desenvolvedores/', desenvolvedores, name='desenvolvedores'),
 ]
