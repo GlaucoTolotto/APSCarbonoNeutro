@@ -1,8 +1,7 @@
-from django.contrib import admin
-from django.urls import path, include
-from calculadora.views import home
+from django.urls import path
+from calculadora.views import home, quemSomos
 
 urlpatterns = [
-
-    path('', home)
+    path('', home),
+    path(r'^quemSomos/', quemSomos, name='quemSomos'),
 ]
